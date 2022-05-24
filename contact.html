@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="js/template-head.js"></script>
+    <title>DL INGENIERIA - Contacto</title>
+</head>
+
+<body>
+    <!-- start barra de navegacion -->
+    <nav>
+        <div class="container_nav">
+            <a href="index.html" title="Home"><span class="fa-solid fa-car-burst fa-2x"></span><br><span
+                    class="icon_nav_legend">Inicio</span></a>
+            <a href="parts.html" title="Características"><span class="fa-solid fa-gears fa-2x"></span><br><span
+                    class="icon_nav_legend">Características</span></a>
+            <a href="#" title="Contacto"><span class="fa-solid fa-at fa-2x"></span><br><span
+                    class="icon_nav_legend">Contacto</span></a>
+        </div>
+    </nav>
+    <!-- end barra de navegacion -->
+    <main>
+        
+        <div class="main_form">
+            <h1 style="color: rgb(140, 0, 0); text-align: center;">Comunicate con nosotros</h1>
+            <form action="show_data.html" target="self">
+                <div class="input_text">
+                    <input type="text" class="field" id="firstname_form" name="firstname" placeholder="Nombre" required>
+                    <input type="text" class="field" id="surname_form" name="surname" placeholder="Apellido"
+                        required><br>
+                    <input type="email" class="field" id="email_form" name="email" placeholder="Correo electrónico"
+                        required>
+                    <input type="tel" class="field" id="telnumber_form" name="telnumber"
+                        placeholder="Telefono de contacto"><br>
+                    <input type="text" class="field" id="comp_name_form" name="comp_name" placeholder="Razón Social"
+                        required>
+                    <select name="service" class="field" id="service_form" required>
+                        <option selected value="none">Elija el servicio</option>
+                        <option value="asesoramiento">Asesoramiento</option>
+                        <option value="adquisiciones">Adquisiciones</option>
+                        <option value="postventa">Postventa</option>
+                    </select><br>
+                    <textarea class="field" id="message_form" name="message" placeholder="Deje su mensaje"
+                        required></textarea><br>
+
+                    <span><input type="button" value="Enviar"></span>
+                </div>
+
+            </form>
+        </div>
+    </main>
+    <script src="js/template-footer.js"></script>
+</body>
+
+</html>
